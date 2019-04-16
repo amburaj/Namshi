@@ -289,6 +289,14 @@ li.tab-link.current {
     width: 25%;
 }
 
+.movie_list_content_sec #tab-2.half_width .movie_item {
+    width: 100%;
+}
+
+#tab-2.half_width .movie_item {
+    width: 25%;
+}
+
 .movie_item:after {
     content: "";
     /* FF3.6-15 */
@@ -543,6 +551,7 @@ ul.review_and_more li a:hover {
     cursor: default;
     justify-content: flex-start;
     background-size: cover;
+    width: 25%;
 }
 
 .cast .movie_title {
@@ -659,6 +668,12 @@ footer span {
     .landing-page .movie_list_content_sec .movie_item {
         width: 33.333%;
     }
+    #tab-2.half_width .movie_item {
+        width: 33.333%;
+    }
+    .cast .movie_list_content_sec .movie_item {
+        width: 33.333%;
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -666,6 +681,12 @@ footer span {
         width: 50%;
     }
     .landing-page .movie_list_content_sec .movie_item {
+        width: 50%;
+    }
+    #tab-2.half_width .movie_item {
+        width: 50%;
+    }
+    .cast .movie_list_content_sec .movie_item {
         width: 50%;
     }
 }
@@ -679,7 +700,13 @@ footer span {
     #tab-2 .movie_item {
         width: 100%;
     }
+    #tab-2.half_width .movie_item {
+        width: 100%;
+    }
     .landing-page .movie_list_content_sec .movie_item {
+        width: 100%;
+    }
+    .cast .movie_list_content_sec .movie_item {
         width: 100%;
     }
     footer {
